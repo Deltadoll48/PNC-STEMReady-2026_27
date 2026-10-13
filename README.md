@@ -1,4 +1,4 @@
-# STEMREADY — Setup & Deploy Guide
+# STEMREADY: Setup & Deploy Guide
 
 This project follows the same pattern as Links Love HBCUs: a Vite + React site,
 hosted free on Vercel, with a free Supabase project as the database. The
@@ -7,7 +7,7 @@ Sign Up form writes directly into a database table you can view in Supabase.
 
 ---
 
-## Part 1 — Create your free Supabase project
+## Part 1: Create your free Supabase project
 
 You can reuse the SAME Supabase project from Links Love HBCUs, or create a new
 one dedicated to STEMREADY — either works. To create a new one:
@@ -20,7 +20,7 @@ one dedicated to STEMREADY — either works. To create a new one:
 4. Copy `.env.example` to a new file named `.env` and paste in those two
    values.
 
-## Part 2 — Create the database table for sign-ups
+## Part 2: Create the database table for sign-ups
 
 In your Supabase project, click **SQL Editor** in the left sidebar, click
 **New query**, paste the following, and click **Run**:
@@ -64,7 +64,7 @@ near the top of the table).
 
 ---
 
-## Part 3 — Push to GitHub
+## Part 3: Push to GitHub
 
 Same process as Links Love HBCUs:
 1. Create a new GitHub repository (e.g. `STEMREADY`).
@@ -74,7 +74,7 @@ Same process as Links Love HBCUs:
    an extra subfolder.
 3. Commit ("Initial STEMREADY project files") and Push origin.
 
-## Part 4 — Deploy on Vercel
+## Part 4: Deploy on Vercel
 
 1. Go to vercel.com, Add New → Project, import your STEMREADY repo.
 2. Add Environment Variables: `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`
